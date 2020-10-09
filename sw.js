@@ -30,7 +30,7 @@ var filesToCache = [
   '/HIT238_APP/CSS/index.css',
   '/HIT238_APP/CSS/list.css',
   '/HIT238_APP/CSS/My_list.css',
-  '/HIT238_APP/CSS/part.css'
+  '/HIT238_APP/CSS/part.css',
   '/HIT238_APP/JS/main.js',
 ];
 
