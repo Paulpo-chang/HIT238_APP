@@ -1,7 +1,7 @@
 var cacheName = 'hello-pwa';
 var filesToCache = [
   '/',
-  '/index.html',
+  'HIT238_APP/index.html',
   '/Beach_1.html',
   '/Beach_2.html',
   '/Beach_3.html',
