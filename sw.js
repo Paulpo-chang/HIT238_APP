@@ -31,6 +31,7 @@ var filesToCache = [
   '/HIT238_APP/CSS/list.css',
   '/HIT238_APP/CSS/My_list.css',
   '/HIT238_APP/CSS/part.css',
+  '/HIT238_APP/JS/main.css',
 ];
 
 /* Start the service worker and cache all of the app's content */
