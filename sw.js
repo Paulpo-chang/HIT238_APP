@@ -1,4 +1,4 @@
-var cacheName = 'HIT238-A';
+var cacheName = 'NAMEOFCACHE';
 var filesToCache = [
   '/HIT238_APP/',
   '/HIT238_APP/index.html',
