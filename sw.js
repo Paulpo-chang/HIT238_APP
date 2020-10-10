@@ -56,6 +56,27 @@ var filesToCache = [
   '/HIT238_APP/Image/Wharf_One.jpg',
   '/HIT238_APP/Image/Woolworths.jpg',
   '/HIT238_APP/Image/working.jpg',
+  '/HIT238_APP/Map/beach1.html',
+  '/HIT238_APP/Map/beach2.html',
+  '/HIT238_APP/Map/beach3.html',
+  '/HIT238_APP/Map/beach4.html',
+  '/HIT238_APP/Map/beach5.html',
+  '/HIT238_APP/Map/park1.html',
+  '/HIT238_APP/Map/park2.html',
+  '/HIT238_APP/Map/park3.html',
+  '/HIT238_APP/Map/park4.html',
+  '/HIT238_APP/Map/park5.html',
+  '/HIT238_APP/Map/restaurant1.html',
+  '/HIT238_APP/Map/restaurant2.html',
+  '/HIT238_APP/Map/restaurant3.html',
+  '/HIT238_APP/Map/restaurant4.html',
+  '/HIT238_APP/Map/restaurant5.html',
+  '/HIT238_APP/Map/shop1.html',
+  '/HIT238_APP/Map/shop2.html',
+  '/HIT238_APP/Map/shop3.html',
+  '/HIT238_APP/Map/shop4.html',
+  '/HIT238_APP/Map/shop5.html',
+
 ];
 
 /* Start the service worker and cache all of the app's content */
