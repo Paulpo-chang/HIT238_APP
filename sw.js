@@ -1,4 +1,4 @@
-var cacheName = 'NAMEOFCACHE';
+var cacheName = 'APPcache';
 var filesToCache = [
   '/HIT238_APP/',
   '/HIT238_APP/index.html',
@@ -14,12 +14,12 @@ var filesToCache = [
   '/HIT238_APP/National_park_3.html',
   '/HIT238_APP/National_park_4.html',
   '/HIT238_APP/National_park_5.html',
-  '/HIT238_APP/Restauramt_cafe.html',
-  '/HIT238_APP/Restauramt_cafe_1.html',
-  '/HIT238_APP/Restauramt_cafe_2.html',
-  '/HIT238_APP/Restauramt_cafe_3.html',
-  '/HIT238_APP/Restauramt_cafe_4.html',
-  '/HIT238_APP/Restauramt_cafe_5.html',
+  '/HIT238_APP/Restaurant_cafe.html',
+  '/HIT238_APP/Restaurant_cafe_1.html',
+  '/HIT238_APP/Restaurant_cafe_2.html',
+  '/HIT238_APP/Restaurant_cafe_3.html',
+  '/HIT238_APP/Restaurant_cafe_4.html',
+  '/HIT238_APP/Restaurant_cafe_5.html',
   '/HIT238_APP/Shopping.html',
   '/HIT238_APP/Shopping_1.html',
   '/HIT238_APP/Shopping_2.html',
@@ -31,7 +31,7 @@ var filesToCache = [
   '/HIT238_APP/CSS/list.css',
   '/HIT238_APP/CSS/My_list.css',
   '/HIT238_APP/CSS/part.css',
-  '/HIT238_APP/JS/main.css',
+  '/HIT238_APP/JS/main.js',
 ];
 
 /* Start the service worker and cache all of the app's content */
