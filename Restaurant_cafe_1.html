@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="CSS/part.css">
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="CSS/nav.css">
 </head>
+
 <body>
 
 <div class="banner-image" style="background-image: url('Image/La_Beach.jpg')">
@@ -20,15 +23,25 @@
           <p>Description: Takeout, Outdoor Seating, Seating, Parking Available, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Waterfront</p>
           <p>Address: 51 Marina Blvd, Larrakeyah NT 0820    <button onclick="myFunction()">Map</button></p>
           <p>Open hours: Everyday 12-8pm, Monday close</p>
+          <br><br>
         </div>
     </div>
 </div>
 
-<sectino class="c">
-  <a class="nav" href="index.html">Previous</a>
-  <a class="nav" href="index.html">Home</a>
-  <a class="nav" href="Restaurant_cafe_2.html">Next</a>
-</section>
+<nav class="nav">
+  <a href="index.html" class="nav_link">
+    <i class="material-icons nav_icon">navigate_before</i>
+    <span class="nav_text">Previous</span>
+  </a>
+  <a href="index.html" class="nav_link">
+    <i class="material-icons nav_icon">home</i>
+    <span class="nav_text">Home</span>
+  </a>
+  <a href="Restaurant_cafe_2.html" class="nav_link">
+    <i class="material-icons nav_icon">navigate_next</i>
+    <span class="nav_text">Next</span>
+  </a>
+</nav>
 
 <script>
 function myFunction() {
