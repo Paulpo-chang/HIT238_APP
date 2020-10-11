@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="CSS/part.css">
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="CSS/nav.css">
 </head>
+
 <body>
 
 <div class="banner-image" style="background-image: url('Image/Lameroo_Beach.jpg')">
@@ -20,15 +23,25 @@
           <p>Description: Lameroo Beach is a small beach located off the Esplanade in central Darwin in the Northern Territory of Australia. It was the location of the town's historic baths between 1922 and 1974.</p>
           <p>Address: Lameroo Beach, Darwin City NT    <button onclick="myFunction()">Map</button></p>
           <p>Open hours: All day</p>
+          <br><br>
         </div>
     </div>
 </div>
 
-<sectino class="c">
-  <a class="nav" href="Beach_2.html">Previous</a>
-  <a class="nav" href="index.html">Home</a>
-  <a class="nav" href="Beach_4.html">Next</a>
-</section>
+<nav class="nav">
+  <a href="Beach_2.html" class="nav_link">
+    <i class="material-icons nav_icon">navigate_before</i>
+    <span class="nav_text">Previous</span>
+  </a>
+  <a href="index.html" class="nav_link">
+    <i class="material-icons nav_icon">home</i>
+    <span class="nav_text">Home</span>
+  </a>
+  <a href="Beach_4.html" class="nav_link">
+    <i class="material-icons nav_icon">navigate_next</i>
+    <span class="nav_text">Next</span>
+  </a>
+</nav>
 
 <script>
 function myFunction() {
