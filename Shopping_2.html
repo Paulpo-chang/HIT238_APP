@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="CSS/part.css">
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="CSS/nav.css">
 </head>
+
 <body>
 
 <div class="banner-image" style="background-image: url('Image/NT_Oriental_Emporium.jpg')">
@@ -20,15 +23,25 @@
           <p>Description: The NT Oriental Emporium is a leading retailer for Asian groceries in the Top End. ... The Oriental Emporium is truly the NT's own gateway to Asia. Come in and see for yourself! Proudly NT Owned and Operated since 1988.</p>
           <p>Address: 305 Bagot Rd, Coconut Grove NT 0810   <button onclick="myFunction()">Map</button></p>
           <p>Open hours: Mon-Fri: 8:30am-6pm, Sat: 8:30am-5pm, Sun: 9am-4pm</p>
+          <br><br>
         </div>
     </div>
 </div>
 
-<sectino class="c">
-  <a class="nav" href="Shopping_1.html">Previous</a>
-  <a class="nav" href="index.html">Home</a>
-  <a class="nav" href="Shopping_3.html">Next</a>
-</section>
+<nav class="nav">
+  <a href="Shopping_1.html" class="nav_link">
+    <i class="material-icons nav_icon">navigate_before</i>
+    <span class="nav_text">Previous</span>
+  </a>
+  <a href="index.html" class="nav_link">
+    <i class="material-icons nav_icon">home</i>
+    <span class="nav_text">Home</span>
+  </a>
+  <a href="Shopping_3.html" class="nav_link">
+    <i class="material-icons nav_icon">navigate_next</i>
+    <span class="nav_text">Next</span>
+  </a>
+</nav>
 
 <script>
 function myFunction() {
