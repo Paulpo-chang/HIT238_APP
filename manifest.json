@@ -31,7 +31,7 @@
       "type": "image/jpg"
   }],
   "lang": "en-US",
-  "start_url": "index.html",
+  "start_url": "/HIT238_APP/index.html",
   "display": "standalone",
   "background_color": "white",
   "theme_color": "white"
