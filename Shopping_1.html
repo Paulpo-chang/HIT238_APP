@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="CSS/part.css">
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="CSS/nav.css">
 </head>
+
 <body>
 
 <div class="banner-image" style="background-image: url('Image/Casuarina_Square.jpg')">
@@ -20,15 +23,25 @@
           <p>Description: The largest shopping centre in the Northern Territory, is located in Casuarina in Darwin's northern suburbs. The shopping centre is built to the building code for Tropical Cyclones, due to cyclones that sweep through the area such as Cyclone Tracy in 1974.</p>
           <p>Address: 247 Trower Rd, Casuarina NT 0810   <button onclick="myFunction()">Map</button></p>
           <p>Open hours: Mon-Thu: 9am-5:30pm, Fri: 9am-9pm, Sat: 9am-5pm, Sun: 10am-3pm</p>
+          <br><br>
         </div>
     </div>
 </div>
 
-<sectino class="c">
-  <a class="nav" href="index.html">Previous</a>
-  <a class="nav" href="index.html">Home</a>
-  <a class="nav" href="Shopping_2.html">Next</a>
-</section>
+<nav class="nav">
+  <a href="index.html" class="nav_link">
+    <i class="material-icons nav_icon">navigate_before</i>
+    <span class="nav_text">Previous</span>
+  </a>
+  <a href="index.html" class="nav_link">
+    <i class="material-icons nav_icon">home</i>
+    <span class="nav_text">Home</span>
+  </a>
+  <a href="Shopping_2.html" class="nav_link">
+    <i class="material-icons nav_icon">navigate_next</i>
+    <span class="nav_text">Next</span>
+  </a>
+</nav>
 
 <script>
 function myFunction() {
