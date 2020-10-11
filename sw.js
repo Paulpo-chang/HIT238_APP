@@ -31,6 +31,7 @@ var filesToCache = [
   '/HIT238_APP/CSS/list.css',
   '/HIT238_APP/CSS/My_list.css',
   '/HIT238_APP/CSS/part.css',
+  '/HIT238_APP/CSS/nav.css',
   '/HIT238_APP/JS/main.js',
   '/HIT238_APP/Image/1.jpg',
   '/HIT238_APP/Image/2.jpg',
