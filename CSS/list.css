@@ -68,15 +68,3 @@ button {
   height:100px;
 }
 
-.nav {
-    margin-left: 46%;
-    text-align: center;
-    font-size: 400%;
-    border: 3px solid black;
-    padding: 10px;
-    border-radius: 10%;
-    background-color: #FA8072;
-    text-decoration:none;
-    color: #4169E1;
-    bottom:auto;
-}
