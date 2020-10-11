@@ -2,31 +2,31 @@
   "name": "Travel in Darwin",
   "short_name": "Hi Darwin",
   "icons": [{
-    "src": "Imsge/Icons/Darwin_icon_16.jpg",
+    "src": "Image/Icons/Darwin_icon_16.jpg",
       "sizes": "16x16",
       "type": "image/jpg"
   }, {
-    "src": "Imsge/Icons/Darwin_icon_128.jpg",
+    "src": "Image/Icons/Darwin_icon_128.jpg",
       "sizes": "128x128",
       "type": "image/jpg"
   }, {
-    "src": "Imsge/Icons/Darwin_icon_144.jpg",
+    "src": "Image/Icons/Darwin_icon_144.jpg",
       "sizes": "144x144",
       "type": "image/jpg"
   }, {
-    "src": "Imsge/Icons/Darwin_icon_152.jpg",
+    "src": "Image/Icons/Darwin_icon_152.jpg",
       "sizes": "152x152",
       "type": "image/jpg"
   }, {
-    "src": "Imsge/Icons/Darwin_icon_192.jpg",
+    "src": "Image/Icons/Darwin_icon_192.jpg",
       "sizes": "192x192",
       "type": "image/jpg"
   }, {
-    "src": "Imsge/Icons/Darwin_icon_256.jpg",
+    "src": "Image/Icons/Darwin_icon_256.jpg",
       "sizes": "256x256",
       "type": "image/jpg"
   }, {
-    "src": "Imsge/Icons/Darwin_icon_512.jpg",
+    "src": "Image/Icons/Darwin_icon_512.jpg",
       "sizes": "512x512",
       "type": "image/jpg"
   }],
