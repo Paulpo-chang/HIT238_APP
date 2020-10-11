@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="CSS/part.css">
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="CSS/nav.css">
 </head>
+
 <body>
 
 <div class="banner-image" style="background-image: url('Image/mindil_beach.jpg')">
@@ -20,22 +23,32 @@
           <p>Description: Mindil Beach is a beach in the Northern Territory of Australia located in the suburb of The Gardens located near Darwin's central business district. Mindil Beach holds the Mindil Beach Sunset Markets, which runs during the dry season of every year.</p>
           <p>Address: Mindil BeachThe Gardens NT 0820   <button onclick="myFunction()">Map</button></p>
           <p>Open hours: All day</p>
+          <br><br>
         </div>
     </div>
 </div>
 
-<sectino class="c">
-  <a class="nav" href="Beach_1.html">Previous</a>
-  <a class="nav" href="index.html">Home</a>
-  <a class="nav" href="Beach_3.html">Next</a>
-</section>
+<nav class="nav">
+  <a href="Beach_1.html" class="nav_link">
+    <i class="material-icons nav_icon">navigate_before</i>
+    <span class="nav_text">Previous</span>
+  </a>
+  <a href="index.html" class="nav_link">
+    <i class="material-icons nav_icon">home</i>
+    <span class="nav_text">Home</span>
+  </a>
+  <a href="Beach_3.html" class="nav_link">
+    <i class="material-icons nav_icon">navigate_next</i>
+    <span class="nav_text">Next</span>
+  </a>
+</nav>
 
 <script>
 function myFunction() {
   window.open("Map/beach2.html", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
 }
 </script>
- 
+
 </body>
 
 </html>
