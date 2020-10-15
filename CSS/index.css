@@ -7,7 +7,7 @@ body, html {
 
 .banner-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url();
-  height: 20%;
+  height: 25%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -31,27 +31,23 @@ body, html {
 .colummn {
   width: 50%;
   float: left;
-  padding: 60px 60px;
+  padding: 40px;
 }
 
 @media screen and (max-width:600px) {
   .colummn {
     width: 100%;
     display: block;
-    margin-bottom: 20px;
   }
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height:450px;
-  max-width: 1000px;
-  margin: auto;
   background-color: #96ceb4;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
   text-align: center;
   border-radius: 40px;
-  padding-bottom: 15px;
   color: #7e4a35;
 }
 
@@ -65,14 +61,12 @@ body, html {
 
 button {
   border: none;
-  padding: 8px;
-  display: inline-block;
   color: #7e4a35;
   background-color: #96ceb4;
   cursor: pointer;
   width: 100%;
   border-radius: 20px;
-  font-size: 100px;
+  font-size: 6vw;
   text-align: center;
   height:330px;
 }
