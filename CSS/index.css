@@ -74,3 +74,21 @@ button {
 img:hover {
   opacity: 0.5;
 }
+
+@media screen and (max-width:600px) {
+  button {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .banner-text {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .banner-text {
+    font-size: 25px;
+  }
+}
