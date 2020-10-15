@@ -30,14 +30,6 @@ body, html {
   float: left;
 }
 
-@media screen and (max-width:600px) {
-  .colummn {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #96ceb4;
@@ -46,5 +38,11 @@ body, html {
 }
 
 p {
-  font-size: 25px;
+  font-size: 2vw;
+}
+
+@media screen and (max-width:600px) {
+  p {
+    font-size: 20px;
+  }
 }
